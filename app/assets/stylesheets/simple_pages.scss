@@ -40,9 +40,49 @@ body{
 .landing-image4{
   background-image: center;
 }
+/*contactpage*/
+.contact{
+  margin: auto;
+  width: 70%;
+}
+.contact h1{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.form-group{
+  text-align: 0px;
+}
+.field{
+  text-align: center;
+  height: 30px;
+  width: 80%;
+  margin: 0px 12%;
+}
+#submit-btn{
+  margin: 3% 42%;
+}
+#contact-us{
+  margin: 0% 4%;
+}
+#aboutimg{
+  padding: 5px;
+}
+/*footer*/
 .copywright {
   float: left;
 }
 .social {
   float: right;
+}
+/*about*/
+#about-heading{
+  height: 200px;
+  Width: 50%;
+  margin: 2% 24%;
+}
+.about-intro, p{
+  font-size: 1.2em;
+}
+#about-intro-img{
+  margin: 0% 30%;
 }
