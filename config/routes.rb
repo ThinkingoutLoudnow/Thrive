@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :products
+  resources :object_thrives
   root 'simple_pages#index'
 
   get 'simple_pages/index'
