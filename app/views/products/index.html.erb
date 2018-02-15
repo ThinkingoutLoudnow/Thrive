@@ -6,16 +6,152 @@
   <p>This is paragraph number <%= paragraph_number %></p>
   <% paragraph_number = paragraph_number + 1 %>
 <% end %>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Image url</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="container">
+<div class="producthead">
+    <h1>Thrive&Fusion</h1>
+  </div>
+  <section class="products">
 
+<!-- It's likely you'll need to link the card somewhere. You could add a button in the info, link the titles, or even wrap the entire card in an <a href="..."> -->
+<div class="row">
+  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+<div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/full/6/7/671635701213-1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/full/6/7/671635701053-1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/566x/6/7/671635701763-1_1_1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- more products -->
+
+</section>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+<div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/full/6/7/671635701213-1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/full/6/7/671635701053-1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/566x/6/7/671635701763-1_1_1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- more products -->
+
+</section>
+
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+<div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/full/6/7/671635701213-1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/full/6/7/671635701053-1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="product-card">
+  <div class="product-image">
+    <img src="https://img.thrivemarket.com/store/566x/6/7/671635701763-1_1_1.jpg" id="thrive-image">
+  </div>
+  <div class="product-info">
+    <a href="#">
+      <h5>Winter Jacket</h5>
+    <h6>$99.99</h6>
+  </a>
+  </div><!--product-info-->
+</div><!--product-card-->
+</div><!--col-->
+</div><!--row-->
+</div>
+<!-- more products -->
+
+</section>
+
+</div>
   <tbody>
     <% @products.each do |product| %>
       <tr>
