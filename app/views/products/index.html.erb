@@ -13,14 +13,14 @@
   <div class="col-xs-12 col-sm-4">
 <div class="product-card">
   <div class="product-image">
-    <%= image_tag product.image_url, id: "thrive-image"%>
-  </div>
   <div class="product-info">
     <%= link_to product do%>
-      <h5><%= product.name%></h5>
-    <h6>$99.99</h6>
-    <% end %>d
+      <%= image_tag product.image_url, id: "thrive-image"%>
+    <% end %>
+    <h5><%= product.name%></h5>
+  <h6>$34.99</h6>
   </a>
+</div>
   </div>
 </div>
 </div>

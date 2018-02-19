@@ -9,7 +9,7 @@
   font-size: 4.0em;
 }
 .products {
-  
+
   margin: auto;
 }
 .product-card{
@@ -30,8 +30,11 @@
   color: white;
   margin: auto;
 }
-#thrive-image{
+.product-image #thrive-image{
   width: 100%;
   height: 100%;
-
+}
+.product-info{
+  height: auto;
+  width: auto;
 }
