@@ -10,13 +10,11 @@
   <%= @product.description %>
 </p>
 
+
+
   <%= image_tag @product.image_url, class: "foo bar", id: "baz"%>
 <br>
 
-<p>
-  <strong>Color:</strong>
-  <% @product.color %>
-</p>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
