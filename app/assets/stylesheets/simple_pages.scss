@@ -24,6 +24,13 @@ body{
   padding: 6px 0px;
   font-size: auto;
 }
+.bottom-foot{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 #myCarousel{
    margin-top: -20px;
 }

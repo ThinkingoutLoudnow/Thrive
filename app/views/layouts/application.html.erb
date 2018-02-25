@@ -19,6 +19,7 @@
     <nav class="navbar navbar-inverse">
        <ul>
          <a href="#" id="brand">Thrive&Fusion</a>
+         <%= link_to "Orders", orders_path%>
           <%= link_to "Product", products_path%>
          <%= link_to "Contact", simple_pages_contact_path %>
          <%= link_to "About", simple_pages_about_path %>
@@ -27,7 +28,7 @@
       </nav>
     <%= yield %>
 
-    <footer>
+    <footer class="bottom-foot">
      <span class="copywright"><a href="#">THRIVE&FUSION</a>&copy;2018 | <a href="#">TERMS-CONTACT</a></span><span class="social"><a href="#">FACEBOOK</a> | <a href="#">TWITTER</a></span>
    </footer>
   </body>
